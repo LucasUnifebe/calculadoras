@@ -1,0 +1,51 @@
+*{
+                margin: 1px;
+                padding: 1px;
+            }
+        body{
+           background:blue;                
+           height: 50%
+           
+                
+        }
+        
+        .button{
+            width: 75px;
+           
+            height: 75px;
+            font-size: 35px;
+            cursor: pointer;
+            border: none;
+            background: aquamarine;
+            
+        }
+        .texto{
+            width: 318px;
+            height: 75px;
+            
+            font-size: 65px;
+        }
+        .abacaxi{
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            
+            border: none;
+            
+        }
+        .button2{
+            position: absolute;
+            top: 388px;
+            left: 1%;
+            
+            border: none;
+            width: 318px;
+           
+            height: 75px;
+            font-size: 35px;
+           
+            
+            background: aquamarine;
+            
+        }
+

@@ -1,0 +1,30 @@
+        body, p, div, td, input, select, textarea
+        {
+            font-family: verdana,arial,helvetica;
+            font-size:11px;
+            color:#27364D;
+            text-decoration: none;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0px;
+        }
+        table, tr, td {
+            text-transform:capitalize;
+            color:navy;
+            font-weight:bold;
+            border-style: groove;
+            border-width: thin;
+            padding:0px;
+
+        }
+        th {
+            background-color:teal;
+            color:white;
+            font-size:18px;
+        }
+        input, select, textarea
+        {
+            background-color:#efefef; border: 1px solid #060606 ;
+            text-transform:uppercase;
+        }

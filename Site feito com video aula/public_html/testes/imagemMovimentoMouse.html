@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript">
+            function cursor(event,img)
+            {
+                document.getElementById('imagem').src = img;
+                document.getElementById('imagem').style.visibility="visible";
+                document.getElementById('imagem').style.position="absolute";
+                document.getElementById('imagem').style.left=event.clientX+10;
+                document.getElementById('imagem').style.top=event.clientY;
+            }
+            function cursorout(event)
+            {
+                document.getElementById('imagem').style.visibility="hidden";
+            }
+        </script>
+
+    </head>
+    <body>
+        <p onmousemove="cursor(event,'../images/diversas/nigel-uma-cacatua-filme-Rio-colori.gif')" onmouseout="cursorout(event)" >
+        ....</p>
+        <p onmousemove="cursor(event,'../images/diversas/amor.gif')" onmouseout="cursorout(event)" >
+       ....</p>
+        <p onmousemove="cursor(event,'../images/diversas/animated_gif_movies.gif')" onmouseout="cursorout(event)" >
+        ....</p>
+        <p onmousemove="cursor(event,'../images/diversas/passarinho-amarelo.gif')" onmouseout="cursorout(event)" >
+       ....</p>
+        <p onmousemove="cursor(event,'../images/diversas/passarinho-verde.gif')" onmouseout="cursorout(event)" >
+        ...</p>
+        <img id="imagem" style="visibility: hidden">
+    </body>
+</html>
